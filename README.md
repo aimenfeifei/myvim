@@ -1,5 +1,5 @@
 # myvim
-my vim config
+vim config
 
 # 使用方式
 把 .vimrc copy 到 ~/ 路径下
