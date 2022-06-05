@@ -62,3 +62,26 @@ let OmniCpp_MayCompleteDot=1
 let OmniCpp_MayCompleteArrow=1
 let OmniCpp_MayCompleteScope=1
 let OmniCpp_DefaultNamespaces=["std","_GLIBCXX_STD"]
+
+call plug#begin('~/.vim/plugged')
+
+Plug 'junegunn/vim-easy-align'
+Plug 'scrooloose/nerdtree'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'Yggdroot/LeaderF', { 'do': './install.sh' }
+Plug 'jiangmiao/auto-pairs'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+
+call plug#end()
+
+
+map <C-n> :NERDTreeToggle<CR>
+
+set laststatus=2
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+
+
+
